@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Attendance</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_intermediate_activity1">IntermediateActivity1</string>
+    <string name="title_activity_intermediate1">Intermediate1</string>
+    <string name="title_activity_intermediat_activity2">IntermediatActivity2</string>
+    <string name="title_activity_attedance">AttedanceActivity</string>
+    <string name="title_activity_attendance">AttendanceActivity</string>
+
+</resources>

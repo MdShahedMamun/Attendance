@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff6a1b9a"
+        android:fitsSystemWindows="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_margin="16dp">
+
+        <Button
+            android:id="@+id/take_attendance_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Take Attendance"
+            android:textAllCaps="false"
+            android:layout_margin="8dp"
+            android:onClick="takeAttendanceButtonClicked"
+            android:background="#ff6a1b9a" />
+
+        <Button
+            android:id="@+id/see_result_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="See Result"
+            android:textAllCaps="false"
+            android:layout_margin="8dp"
+            android:onClick="seeResultButtonClicked"
+            android:background="#ff6a1b9a" />
+
+    </LinearLayout>
+
+</LinearLayout>

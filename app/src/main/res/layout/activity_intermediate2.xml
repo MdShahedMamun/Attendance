@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="app.com.example.shahed.attendance.IntermediateActivity2"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff6a1b9a"
+        android:fitsSystemWindows="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="46dp"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:layout_marginBottom="16dp"
+            android:text="Select Option" />
+
+        <TextView
+            android:id="@+id/error_message_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:text="" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dept_spinner"
+            android:layout_margin="8dp" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/semester_spinner"
+            android:layout_margin="8dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ok_button2"
+            android:onClick="okButton2Clicked"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:layout_margin="8dp"
+            android:background="#ff6a1b9a" />
+
+    </LinearLayout>
+
+</LinearLayout>
